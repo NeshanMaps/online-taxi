@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Online taxi</string>
+    <string name="request">درخواست خودرو</string>
+    <string name="searching_for_car">در حال یافتن خودرو...</string>
+    <string name="cancel">لغو درخواست</string>
+    <string name="submit_source">تایید مبدا</string>
+    <string name="submit_destination">تایید مقصد</string>
+    <string name="source">مبدا</string>
+    <string name="destination">مقصد</string>
+    <string name="connection_error">خطا در ارتباط</string>
+    <string name="search_hint">جستجو...</string>
+</resources>
