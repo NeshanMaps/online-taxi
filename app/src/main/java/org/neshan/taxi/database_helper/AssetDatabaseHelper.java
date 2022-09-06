@@ -1,4 +1,4 @@
-package org.neshan.delivery.database_helper;
+package org.neshan.taxi.database_helper;
 
 import android.content.Context;
 import android.database.SQLException;

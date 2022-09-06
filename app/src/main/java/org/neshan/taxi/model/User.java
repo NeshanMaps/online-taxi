@@ -1,4 +1,4 @@
-package org.neshan.delivery.model;
+package org.neshan.taxi.model;
 
 public class User extends BaseModel {
 }

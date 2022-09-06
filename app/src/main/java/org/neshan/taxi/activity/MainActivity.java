@@ -1,4 +1,4 @@
-package org.neshan.delivery.activity;
+package org.neshan.taxi.activity;
 
 import android.Manifest;
 import android.app.Activity;
@@ -50,10 +50,10 @@ import com.google.android.material.bottomsheet.BottomSheetDialog;
 
 import org.neshan.common.model.LatLng;
 import org.neshan.common.model.LatLngBounds;
-import org.neshan.delivery.R;
-import org.neshan.delivery.adapter.SearchAdapter;
-import org.neshan.delivery.database_helper.AssetDatabaseHelper;
-import org.neshan.delivery.model.Driver;
+import org.neshan.taxi.R;
+import org.neshan.taxi.adapter.SearchAdapter;
+import org.neshan.taxi.database_helper.AssetDatabaseHelper;
+import org.neshan.taxi.model.Driver;
 import org.neshan.mapsdk.MapView;
 import org.neshan.mapsdk.model.Marker;
 import org.neshan.servicessdk.search.NeshanSearch;
@@ -174,7 +174,8 @@ public class MainActivity extends AppCompatActivity implements SearchAdapter.OnS
     }
 
     private void search(LatLng searchPosition, String text) {
-        new NeshanSearch.Builder("service.oz8cfBdCEdmTv8qGx1835A1OPcVdq5DcTGgMN6z9")
+        //TODO: Replace YOUR-API-KEY with your api key
+        new NeshanSearch.Builder("YOUR-API-KEY")
                 .setLocation(searchPosition)
                 .setTerm(text)
                 .build().call(new Callback<NeshanSearchResult>() {

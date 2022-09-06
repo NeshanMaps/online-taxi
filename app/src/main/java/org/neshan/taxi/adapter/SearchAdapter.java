@@ -1,4 +1,4 @@
-package org.neshan.delivery.adapter;
+package org.neshan.taxi.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,7 +9,7 @@ import androidx.appcompat.widget.AppCompatTextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import org.neshan.common.model.LatLng;
-import org.neshan.delivery.R;
+import org.neshan.taxi.R;
 import org.neshan.servicessdk.search.model.Item;
 import org.neshan.servicessdk.search.model.Location;
 
